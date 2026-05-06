@@ -4,8 +4,8 @@ Mobile tools for $200 Android phone.
 
 ## Files
 
-- `ninurta_full.sh` - Background process
-- `vertical_game.sh` - Balance tracker
+cd ~/ninurta-dream
+mv vertical_game.sh Virtual_game.sh
 
 ## Requirements
 
@@ -16,5 +16,5 @@ Mobile tools for $200 Android phone.
 
 ```bash
 chmod +x *.sh
-./vertical_game.sh init
-./vertical_game.sh mine
+cd ~/ninurta-dream
+mv vertical_game.sh Virtual_game.sh
