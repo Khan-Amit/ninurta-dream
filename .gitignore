@@ -1,34 +1,32 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
+# Runtime files
 *.log
+*.tmp
+*.cir
+*.pid
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
+# Game data (NEVER commit)
+.vertical_game/
+.desire_domain/
+balance
+ledger*
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Local configs
+*.env
+*.secret
+*.key
+config_local*
 
-# Keystore files
-*.jks
-*.keystore
+# OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Termux local
+.bash_history
+.cache/
 
-# Android Profiling
-*.hprof
+# Your private protocols
+data_transfer_software
+branch_protocol*
+*transfer*protocol*
